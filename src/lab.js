@@ -1,4 +1,4 @@
-import { Engine, THREE, studioEnvironment } from '../../src/core/engine.js';
+import { Engine, THREE, studioEnvironment } from './core/engine.js';
 import { buildMovement } from './movement.js';
 import { makeStudio } from './studio.js';
 import { irisUniforms } from './finish.js';

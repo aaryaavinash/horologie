@@ -1,6 +1,6 @@
 // Studio for metals on ivory: long softboxes over a mid-dark dome so polished parts carry both
 // bright strip highlights and deep reflections. Shared by the page and the lab.
-import { THREE, studioEnvironment } from '../../src/core/engine.js';
+import { THREE, studioEnvironment } from './core/engine.js';
 
 export function makeEnv(renderer, { front = 1.4, dome = 1 } = {}) {
   return studioEnvironment(renderer, {

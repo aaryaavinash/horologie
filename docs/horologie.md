@@ -1,8 +1,8 @@
-# 20 · Aurel Horologie — "Take a movement apart"
+# Aurel Horologie — "Take a movement apart"
 Brand: **Aurel Horologie** — an independent Genevan watchmaker; the calibre AH-01 skeleton tourbillon.
 
 ## Signature interaction
-Hero: the Meshy watch (`models/horologie/watch.glb`) floating; the cursor tilts it; studio light glints on rose gold.
+Hero: the Meshy watch (`models/watch.glb`) floating; the cursor tilts it; studio light glints on rose gold.
 Then **scroll takes the movement apart**: the watch turns and the camera moves into an exploded view of a **fully procedural
 movement** stacked along the axis: mainplate, barrel with mainspring, going train (centre, third, fourth, escape wheels with real
 tooth profiles via extruded Shapes), pallet fork, balance wheel with hairspring (oscillating at 4 Hz, 8 beats/s), bridges with

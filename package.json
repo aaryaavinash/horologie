@@ -1,7 +1,7 @@
 {
   "name": "horologie",
   "private": true,
-  "description": "Standalone Aurel Horologie world from Dioramas.",
+  "description": "An independent watchmaking concept centered on the AH-01 skeleton tourbillon.",
   "license": "MIT",
   "version": "0.1.0",
   "type": "module",

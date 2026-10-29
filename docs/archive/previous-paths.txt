@@ -1,0 +1,15 @@
+// ORIGINAL (preserved, not deleted — disabled by comment): previous nested paths
+// import { Engine, THREE, prepModel, damp, clamp, smooth, lerp } from '../../src/core/engine.js';
+// import { Assets, firstMesh } from '../../src/core/assets.js';
+// import { Pointer } from '../../src/core/input.js';
+// import { smoothScroll, gsap } from '../../src/core/scroll.js';
+// // ORIGINAL (preserved, not deleted — disabled by comment): import { preloader, cursor, magnetic, worldNav } from '../../src/core/ui.js';
+// import { preloader, cursor, magnetic } from '../../src/core/ui.js';
+// const watchLoad = assets.gltf('models/horologie/watch.glb');
+// // ORIGINAL (preserved, not deleted — disabled by comment): worldNav('horologie', { theme: 'light', corner: 'bl' });
+// import { Engine, THREE, studioEnvironment } from '../../src/core/engine.js';
+// import { THREE, studioEnvironment } from '../../src/core/engine.js';
+//   <link rel="stylesheet" href="./examples/horologie/style.css">
+//   <script type="module" src="./examples/horologie/main.js"></script>
+// // ORIGINAL (preserved, not deleted — disabled by comment): import { preloader, cursor, magnetic, worldNav } from './core/ui.js';
+// // ORIGINAL (preserved, not deleted — disabled by comment): worldNav('horologie', { theme: 'light', corner: 'bl' });
