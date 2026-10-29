@@ -1,9 +1,11 @@
+import './tailwind.css';
 import { Engine, THREE, prepModel, damp, clamp, smooth, lerp } from '../../src/core/engine.js';
 import { DepthOfFieldEffect } from 'postprocessing';
 import { Assets, firstMesh } from '../../src/core/assets.js';
 import { Pointer } from '../../src/core/input.js';
 import { smoothScroll, gsap } from '../../src/core/scroll.js';
-import { preloader, cursor, magnetic, worldNav } from '../../src/core/ui.js';
+// ORIGINAL (preserved, not deleted — disabled by comment): import { preloader, cursor, magnetic, worldNav } from '../../src/core/ui.js';
+import { preloader, cursor, magnetic } from '../../src/core/ui.js';
 import { buildMovement } from './movement.js';
 import { patch, irisUniforms } from './finish.js';
 import { makeStudio, IVORY_HDR } from './studio.js';
@@ -486,7 +488,7 @@ function drawLabels() {
 }
 
 // ─── Boot ─────────────────────────────────────────────────────────────────────
-worldNav('horologie', { theme: 'light', corner: 'bl' });
+// ORIGINAL (preserved, not deleted — disabled by comment): worldNav('horologie', { theme: 'light', corner: 'bl' });
 cursorApi = cursor({ color: '#16213d', blend: 'normal', size: 30 });
 magnetic();
 smoothScroll({ lerp: 0.08 });
